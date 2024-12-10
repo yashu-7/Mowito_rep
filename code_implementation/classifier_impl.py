@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.metrics import classification_report, confusion_matrix
 
-model = tf.keras.models.load_model('good_bad_classifier.h5')
+model = tf.keras.models.load_model('models\good_bad_classifier.h5')
 
 dataset_path = 'anomaly_detection_dataset'  
 image_size = (150, 150)
